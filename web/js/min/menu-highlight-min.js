@@ -1,0 +1,1 @@
+$(document).ready(function(){var i=location.href.toLowerCase();"/"==i.slice(-1)&&(i+="index.php"),$("#cssmenu li a").each(function(){i.indexOf(this.href.toLowerCase())>-1&&($("li.highlight").removeClass("highlight"),$(this).parent().addClass("highlight"))})}),$("#cssmenu li a:first-child").addClass("highlight");

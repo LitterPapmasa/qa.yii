@@ -1,0 +1,1 @@
+!function($){$(document).ready(function(){var n=$("#cssmenu"),e=n.find("ul:first"),i=n.find("li").not("#responsive-tab");e.prepend('<li id="responsive-tab"><a href="#" class="no-flickr">Меню</a></li>'),n.on("click","#responsive-tab",function(){i.slideToggle("fast"),i.addClass("collapsed")})})}(jQuery);
